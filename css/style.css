@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 980px;
+    margin: 0px;
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+a:hover,
+button:hover{
+    opacity: 0.5;
+}
+button:active, button:focus,
+h3:active, h3:focus,
+a:active, a:focus{
+    outline: none !important;
+}
+.container {
+    margin: 0 auto;
+    width: 980px;
+    /*background-color: rgba(127, 255, 212, 0.17);*/
+}
+.head{
+    padding-top: 10px;
+}
+.head h1{
+    text-align: center;
+    font-size: 50px;
+}
+.head .car{
+    background-image: url("../img/car.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.content p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content a:hover{
+    background-color: #ffd3d1;
+}
+.content a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    width: 25%;
+    border: solid 1px #60fff0;
+    background-color: rgba(127, 255, 212, 0.31);
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+    float: left;
+    margin-left: 80px;
+}
+.content #addCar{
+    margin-left: 200px;
+}
+.addCar{
+    /*background-color: blanchedalmond;*/
+    background: url("../img/fonAddCar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+.addCar .container{
+    background-color: rgba(255, 255, 255, 0.55);
+}
+.addCar h1{
+    margin-bottom: 80px;
+}
+.content > div{
+    width: 37%;
+    float: left;
+    height: 150px;
+}
+.content .dopInfa{
+    width: 23%;
+}
+.content .firmaBlock{
+    margin-left: 25px;
+}
+.content label{
+    font-size: 20px;
+}
+.content .button{
+    width: 100%;
+    text-align: center;
+}
+.content button{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+.content button:hover{
+    cursor: pointer;
+}
